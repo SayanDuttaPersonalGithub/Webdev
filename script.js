@@ -86,6 +86,8 @@ function resetContent()
 {
     let inputElement=document.querySelector('.js-in');
     inputElement.value=null;
+     const finalAns=document.querySelector('.ans')
+    finalAns.innerHTML=` `;
 
 }
 function handle(event)
